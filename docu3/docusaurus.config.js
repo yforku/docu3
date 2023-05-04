@@ -6,20 +6,27 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  // title: 'My Site',
+  title: 'DOCU3',
+  // tagline: 'Dinosaurs are cool',
+  tagline: 'Dirgahayu Indonesia',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-test-site.com',
+  // url: 'https://your-docusaurus-test-site.com',
+  url: 'https://yforku.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  // baseUrl: '/',
+  baseUrl: '/docu3/',
+  trailingSlash: true,
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  // organizationName: 'facebook', // Usually your GitHub org/user name.
+  organizationName: 'yforku', // Usually your GitHub org/user name.
+  // projectName: 'docusaurus', // Usually your repo name.
+  projectName: 'docu3', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -78,7 +85,8 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            // href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/yforku/docu2/',
             label: 'GitHub',
             position: 'right',
           },
@@ -127,7 +135,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} BinKadal Sendirian Berhad`,
       },
       prism: {
         theme: lightCodeTheme,
@@ -137,3 +145,4 @@ const config = {
 };
 
 module.exports = config;
+
