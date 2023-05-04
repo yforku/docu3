@@ -1,3 +1,18 @@
+# .gitignore file for Docusaurus
+
+# Generated files
+build/
+docs/.docusaurus/
+website/.docusaurus/
+
+# NPM/Yarn files
+yarn.lock
+package-lock.json
+
+# Other files
+.DS_Store
+Thumbs.db
+
 # Logs
 logs
 *.log
@@ -128,3 +143,4 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
